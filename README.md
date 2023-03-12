@@ -22,6 +22,8 @@ python chat.py
 ```
 - Enjoy =)))
 
+## Importantly, the Google Colab system will need to have a different use.
+
 ## Model structure:
 
 + model/

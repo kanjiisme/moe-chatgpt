@@ -13,7 +13,7 @@ num_thai==0.0.5
 numba==0.56.4
 numpy==1.23.5
 omegaconf==2.2.3
-openai==0.27.1
+openai
 OpenCC==1.1.1
 PyAudio==0.2.13
 pyopenjtalk==0.3.0
