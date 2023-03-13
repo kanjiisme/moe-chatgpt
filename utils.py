@@ -5,17 +5,15 @@ nltk.download('punkt')
 def clean_text(text):
     text = remove_code_text(text)
     paragraphs = text.split('\n')
-    cleaned_sentences = []
+    cleaned_paragraphs = []
 
     for paragraph in paragraphs:
-        sentences = nltk.sent_tokenize(paragraph)
+        cleaned_paragraph= ' '.join(paragraph.split())
+        if cleaned_paragraph!= "" and cleaned_paragraph is not None:
+            cleaned_paragraphs.append(cleaned_paragraph)
+            
 
-        for sentence in sentences:
-            cleaned_sentence = ' '.join(sentence.split())
-            if cleaned_sentence != "" and cleaned_sentence is not None:
-                cleaned_sentences.append(cleaned_sentence)
-
-    return cleaned_sentences
+    return cleaned_paragraphs
 
 def remove_code_text(text):
 

@@ -1,3 +1,4 @@
+import time
 import openai
 import os
 from dotenv import load_dotenv
@@ -90,6 +91,7 @@ def main():
 
     for rate, data in audio_line:
       run_audio(rate, data)
+      time.sleep(0.1)
 
 if __name__ == "__main__":
   main()
