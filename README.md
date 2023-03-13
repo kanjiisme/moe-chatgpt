@@ -32,6 +32,10 @@ python chat.py
 - - info.json (.yaml) (Options)
 - - cover.jpg (Options)
 
+| Arguments     | Info |
+|---------------| ----------|
+| --apiurl | The path to the server moe-tts. |
+| --openaikey | You OpenAI API key. |
 ## Credits:
 - VITS : [Francis-Komizu](https://github.com/Francis-Komizu/VITS)
 - OpenAI: ChatGPT.
