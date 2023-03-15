@@ -34,7 +34,7 @@ python chat.py
 
 | Arguments     | Info |
 |---------------| ----------|
-| --apiurl | The path to the server moe-tts. |
+| --apiurl | The path to the server moe-tts. Get moe-tts backend [here.](https://github.com/kanjiisme/moe-tts-webui) |
 | --openaikey | You OpenAI API key. |
 ## Credits:
 - VITS : [Francis-Komizu](https://github.com/Francis-Komizu/VITS)
