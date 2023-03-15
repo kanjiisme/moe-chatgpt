@@ -37,6 +37,7 @@ python chat.py
 | --apiurl | The path to the server moe-tts. Get moe-tts backend [here.](https://github.com/kanjiisme/moe-tts-webui) |
 | --openaikey | You OpenAI API key. |
 ## Credits:
-- VITS : [Francis-Komizu](https://github.com/Francis-Komizu/VITS)
+- VITS : [jaywalnut310](https://github.com/jaywalnut310/vits)
+- VITS Model : [Francis-Komizu](https://github.com/Francis-Komizu/VITS)
 - OpenAI: ChatGPT.
 - You 🫵.
